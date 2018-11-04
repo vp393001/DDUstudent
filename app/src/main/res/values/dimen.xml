@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text">33sp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="leftPadding1">35dp</dimen>
+    <dimen name="leftPadding2">5dp</dimen>
+</resources>

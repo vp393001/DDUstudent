@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:paddingLeft="@dimen/leftPadding1"
+            android:text="@string/app_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_web_black_24dp"
+            android:drawablePadding="@dimen/leftPadding2"
+            android:paddingLeft="@dimen/leftPadding2"
+            android:text="@string/website"
+            android:textSize="@dimen/text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="@dimen/leftPadding2"
+            android:paddingLeft="@dimen/leftPadding2"
+            android:text="@string/email"
+            android:textSize="@dimen/text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_map_black_24dp"
+            android:drawablePadding="@dimen/leftPadding2"
+            android:paddingLeft="@dimen/leftPadding2"
+            android:text="@string/address"
+            android:textSize="@dimen/text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:drawablePadding="@dimen/leftPadding2"
+            android:paddingLeft="@dimen/leftPadding2"
+            android:text="@string/time"
+            android:textSize="@dimen/text" />
+    </LinearLayout>
+</ScrollView>
